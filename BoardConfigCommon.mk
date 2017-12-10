@@ -23,6 +23,9 @@ TARGET_BOOTLOADER_BOARD_NAME := universal7420
 TARGET_BOARD_PLATFORM := exynos5
 TARGET_SOC := exynos7420
 
+# TWRP
+RECOVERY_VARIANT := twrp
+
 # inherit the splitted configs
 -include $(LOCAL_PATH)/configs/board/*.mk
 
